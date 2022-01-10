@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bangladesh flag</title>
+    <style>
+        @keyframes run {
+            from{
+                background-color: rgb(224, 187, 64);
+                left: 0;
+                top: 0;
+            }
+            50%{
+                top: 500px;
+            }
+            to{
+                background-color: rgb(248, 57, 9);
+                left: 100%;
+                top: 0;
+            }
+            
+        }
+        
+        .flag:hover{
+            margin-left: 100%;
+            cursor: not-allowed; 
+            
+
+        }
+          .flag{
+            transition:margin-left 3s linear 1s ;
+
+        } 
+        .square{
+            width: 300px;
+            height: 150px;
+            background-color: green; 
+            margin-top: 70px;
+            border-left: 3px solid brown;
+            
+             
+            
+        }
+        .ball{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            border-radius: 50%;
+            animation: run 3s linear .5s infinite alternate;
+            animation-play-state: running;
+            position: relative;
+        }
+        
+         
+        .circle{
+            width: 150px;
+            height: 150px;
+            background-color: red;
+            border-radius: 50%;
+            margin-left:25%;
+           
+             
+             
+        }
+    </style>
+</head>
+<body>
+    <h1>Now i design  bangladesh falg</h1>
+    <div class="flag">
+        <div class="square">
+            <div class="circle"></div>
+        </div>
+         
+
+    </div>
+    <hr>
+    <div class="ball">
+
+    </div>
+    
+    
+</body>
+</html>
